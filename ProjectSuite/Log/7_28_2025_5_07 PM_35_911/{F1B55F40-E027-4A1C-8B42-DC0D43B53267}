@@ -1,0 +1,1501 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="message 20">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="49"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage17_Dif.png"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+				<Node name="original">
+					<Prp name="object bottom" type="I" value="470"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="299"/>
+					<Prp name="object name" type="S" value="Aliases.WPF_OpenApp.HwndSource_OrderForm.OrderForm.ButtonOK"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="datetime" type="D" value="45866.3697685185"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="49"/>
+					<Prp name="object top" type="I" value="445"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="372"/>
+					<Prp name="click point x" type="I" value="352"/>
+					<Prp name="click point y" type="I" value="453"/>
+					<Prp name="image file name" type="S" value="tcvi2482734842190023.png"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="470"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="299"/>
+					<Prp name="object name" type="S" value="Aliases.WPF_OpenApp.HwndSource_OrderForm.OrderForm.ButtonOK"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="datetime" type="D" value="45866.4219864352"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="49"/>
+					<Prp name="object top" type="I" value="445"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="372"/>
+					<Prp name="click point x" type="I" value="335"/>
+					<Prp name="click point y" type="I" value="457"/>
+					<Prp name="image file name" type="S" value="visImage17.png"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="20"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="date" type="D" value="45866.7136543519"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="49"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.WPF_OpenApp.HwndSource_OrderForm.OrderForm.ButtonOK&#xA;(Sys.Process(&quot;WPF_OpenApp&quot;).WPFObject(&quot;HwndSource: OrderForm&quot;).WPFObject(&quot;OrderForm&quot;).WPFObject(&quot;gridMain&quot;).WPFObject(&quot;gridButtons&quot;).WPFObject(&quot;ButtonOK&quot;))"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 8">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="25"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage5_Dif.png"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+				<Node name="original">
+					<Prp name="object bottom" type="I" value="222"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="108"/>
+					<Prp name="object name" type="S" value="Aliases.WPF_OpenApp.HwndSource_OrderForm.OrderForm.Customer"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="datetime" type="D" value="45866.3693981481"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="25"/>
+					<Prp name="object top" type="I" value="201"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="459"/>
+					<Prp name="click point x" type="I" value="211"/>
+					<Prp name="click point y" type="I" value="211"/>
+					<Prp name="image file name" type="S" value="tcvi2482411402190010.png"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="222"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="108"/>
+					<Prp name="object name" type="S" value="Aliases.WPF_OpenApp.HwndSource_OrderForm.OrderForm.Customer"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="datetime" type="D" value="45866.4219710648"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="25"/>
+					<Prp name="object top" type="I" value="201"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="459"/>
+					<Prp name="click point x" type="I" value="211"/>
+					<Prp name="click point y" type="I" value="211"/>
+					<Prp name="image file name" type="S" value="visImage5.png"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="8"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="date" type="D" value="45866.7136382639"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="25"/>
+			<Prp name="remarks" type="S" value="A click at point (103, 10) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.WPF_OpenApp.HwndSource_OrderForm.OrderForm.Customer&#xA;(Sys.Process(&quot;WPF_OpenApp&quot;).WPFObject(&quot;HwndSource: OrderForm&quot;).WPFObject(&quot;OrderForm&quot;).WPFObject(&quot;gridMain&quot;).WPFObject(&quot;Customer&quot;))"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 9">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="27"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage6_Dif.png"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+				<Node name="original">
+					<Prp name="object bottom" type="I" value="222"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="108"/>
+					<Prp name="object name" type="S" value="Aliases.WPF_OpenApp.HwndSource_OrderForm.OrderForm.Customer"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="datetime" type="D" value="45866.3694097222"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="27"/>
+					<Prp name="object top" type="I" value="201"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="459"/>
+					<Prp name="click point x" type="I" value="-717"/>
+					<Prp name="click point y" type="I" value="-284"/>
+					<Prp name="image file name" type="S" value="tcvi2482421092190011.png"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="222"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="108"/>
+					<Prp name="object name" type="S" value="Aliases.WPF_OpenApp.HwndSource_OrderForm.OrderForm.Customer"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="datetime" type="D" value="45866.4219723495"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="27"/>
+					<Prp name="object top" type="I" value="201"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="459"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage6.png"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="The text 'Tin Nguyen' was entered in the text editor."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="9"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="date" type="D" value="45866.7136393287"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="27"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.WPF_OpenApp.HwndSource_OrderForm.OrderForm.Customer&#xA;(Sys.Process(&quot;WPF_OpenApp&quot;).WPFObject(&quot;HwndSource: OrderForm&quot;).WPFObject(&quot;OrderForm&quot;).WPFObject(&quot;gridMain&quot;).WPFObject(&quot;Customer&quot;))"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 2">
+			<Prp name="message" type="S" value="Time AFTER checking opening app 1753697256691 ms"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="date" type="D" value="45866.7136191204"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="line no" type="I" value="10"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 14">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="37"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage11_Dif.png"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+				<Node name="original">
+					<Prp name="object bottom" type="I" value="252"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="308"/>
+					<Prp name="object name" type="S" value="Aliases.WPF_OpenApp.HwndSource_OrderForm.OrderForm.City"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="datetime" type="D" value="45866.3695949074"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="37"/>
+					<Prp name="object top" type="I" value="231"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="459"/>
+					<Prp name="click point x" type="I" value="-717"/>
+					<Prp name="click point y" type="I" value="-284"/>
+					<Prp name="image file name" type="S" value="tcvi2482579842190017.png"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="252"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="308"/>
+					<Prp name="object name" type="S" value="Aliases.WPF_OpenApp.HwndSource_OrderForm.OrderForm.City"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="datetime" type="D" value="45866.4219780324"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="37"/>
+					<Prp name="object top" type="I" value="231"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="459"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage11.png"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="The text 'HCMC' was entered in the text editor."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="14"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="date" type="D" value="45866.7136448958"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="37"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.WPF_OpenApp.HwndSource_OrderForm.OrderForm.City&#xA;(Sys.Process(&quot;WPF_OpenApp&quot;).WPFObject(&quot;HwndSource: OrderForm&quot;).WPFObject(&quot;OrderForm&quot;).WPFObject(&quot;gridMain&quot;).WPFObject(&quot;City&quot;))"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 7">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="23"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage4_Dif.png"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+				<Node name="original">
+					<Prp name="object bottom" type="I" value="98"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="67"/>
+					<Prp name="object name" type="S" value="Aliases.WPF_OpenApp.HwndSource_OrderForm.OrderForm.Quantity"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="datetime" type="D" value="45866.369375"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="23"/>
+					<Prp name="object top" type="I" value="77"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="124"/>
+					<Prp name="click point x" type="I" value="-717"/>
+					<Prp name="click point y" type="I" value="-284"/>
+					<Prp name="image file name" type="S" value="tcvi248239406219009.png"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="98"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="67"/>
+					<Prp name="object name" type="S" value="Aliases.WPF_OpenApp.HwndSource_OrderForm.OrderForm.Quantity"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="datetime" type="D" value="45866.4219695486"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="23"/>
+					<Prp name="object top" type="I" value="77"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="124"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage4.png"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="7"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="date" type="D" value="45866.713636794"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="23"/>
+			<Prp name="remarks" type="S" value="'123' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.WPF_OpenApp.HwndSource_OrderForm.OrderForm.Quantity&#xA;(Sys.Process(&quot;WPF_OpenApp&quot;).WPFObject(&quot;HwndSource: OrderForm&quot;).WPFObject(&quot;OrderForm&quot;).WPFObject(&quot;gridMain&quot;).WPFObject(&quot;Quantity&quot;))"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 22">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="53"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage18_Dif.png"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+				<Node name="original">
+					<Prp name="object bottom" type="I" value="406"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Aliases.WPF_OpenApp.HwndSource_MainForm"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="datetime" type="D" value="45866.3698611111"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="53"/>
+					<Prp name="object top" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="608"/>
+					<Prp name="click point x" type="I" value="576"/>
+					<Prp name="click point y" type="I" value="7"/>
+					<Prp name="image file name" type="S" value="tcvi2482815462190025.png"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="406"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Aliases.WPF_OpenApp.HwndSource_MainForm"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="datetime" type="D" value="45866.4219900347"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="53"/>
+					<Prp name="object top" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="608"/>
+					<Prp name="click point x" type="I" value="576"/>
+					<Prp name="click point y" type="I" value="7"/>
+					<Prp name="image file name" type="S" value="visImage18.png"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="The drag operation was performed with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="22"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="date" type="D" value="45866.7136918866"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="53"/>
+			<Prp name="remarks" type="S" value="The mouse cursor was dragged with the no key pressed.&#xA;&#xA;Start point: 576, 7.&#xA;End point: 569, 7.&#xA;Dragging distance: -7, 0.&#xA;&#xA;Tested object:&#xA;Aliases.WPF_OpenApp.HwndSource_MainForm&#xA;(Sys.Process(&quot;WPF_OpenApp&quot;).WPFObject(&quot;HwndSource: MainForm&quot;))"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{1B60866A-89EC-4FAD-A917-4B4ADBC020F8}"/>
+		</Node>
+		<Node name="message 15">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="39"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage12_Dif.png"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+				<Node name="original">
+					<Prp name="object bottom" type="I" value="282"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="308"/>
+					<Prp name="object name" type="S" value="Aliases.WPF_OpenApp.HwndSource_OrderForm.OrderForm.Zip"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="datetime" type="D" value="45866.3696412037"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="39"/>
+					<Prp name="object top" type="I" value="261"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="459"/>
+					<Prp name="click point x" type="I" value="367"/>
+					<Prp name="click point y" type="I" value="267"/>
+					<Prp name="image file name" type="S" value="tcvi2482621562190018.png"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="282"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="308"/>
+					<Prp name="object name" type="S" value="Aliases.WPF_OpenApp.HwndSource_OrderForm.OrderForm.Zip"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="datetime" type="D" value="45866.4219791319"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="39"/>
+					<Prp name="object top" type="I" value="261"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="459"/>
+					<Prp name="click point x" type="I" value="367"/>
+					<Prp name="click point y" type="I" value="267"/>
+					<Prp name="image file name" type="S" value="visImage12.png"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="15"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="date" type="D" value="45866.7136462616"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="39"/>
+			<Prp name="remarks" type="S" value="A click at point (59, 6) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.WPF_OpenApp.HwndSource_OrderForm.OrderForm.Zip&#xA;(Sys.Process(&quot;WPF_OpenApp&quot;).WPFObject(&quot;HwndSource: OrderForm&quot;).WPFObject(&quot;OrderForm&quot;).WPFObject(&quot;gridMain&quot;).WPFObject(&quot;Zip&quot;))"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 6">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="21"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage3_Dif.png"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+				<Node name="original">
+					<Prp name="object bottom" type="I" value="98"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="67"/>
+					<Prp name="object name" type="S" value="Aliases.WPF_OpenApp.HwndSource_OrderForm.OrderForm.Quantity"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="datetime" type="D" value="45866.3693634259"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="21"/>
+					<Prp name="object top" type="I" value="77"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="124"/>
+					<Prp name="click point x" type="I" value="105"/>
+					<Prp name="click point y" type="I" value="93"/>
+					<Prp name="image file name" type="S" value="tcvi248238390219008.png"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="98"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="67"/>
+					<Prp name="object name" type="S" value="Aliases.WPF_OpenApp.HwndSource_OrderForm.OrderForm.Quantity"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="datetime" type="D" value="45866.4219681829"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="21"/>
+					<Prp name="object top" type="I" value="77"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="124"/>
+					<Prp name="click point x" type="I" value="105"/>
+					<Prp name="click point y" type="I" value="93"/>
+					<Prp name="image file name" type="S" value="visImage3.png"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="6"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="date" type="D" value="45866.7136353935"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="21"/>
+			<Prp name="remarks" type="S" value="A click at point (38, 16) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.WPF_OpenApp.HwndSource_OrderForm.OrderForm.Quantity&#xA;(Sys.Process(&quot;WPF_OpenApp&quot;).WPFObject(&quot;HwndSource: OrderForm&quot;).WPFObject(&quot;OrderForm&quot;).WPFObject(&quot;gridMain&quot;).WPFObject(&quot;Quantity&quot;))"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 23">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="55"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage19_Dif.png"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+				<Node name="original">
+					<Prp name="object bottom" type="I" value="137"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="113"/>
+					<Prp name="object name" type="S" value="Aliases.WPF_OpenApp.dlgConfirmation.btnNo"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="datetime" type="D" value="45866.3698842593"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="55"/>
+					<Prp name="object top" type="I" value="114"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="188"/>
+					<Prp name="click point x" type="I" value="146"/>
+					<Prp name="click point y" type="I" value="126"/>
+					<Prp name="image file name" type="S" value="tcvi2482833902190026.png"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="137"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="113"/>
+					<Prp name="object name" type="S" value="Aliases.WPF_OpenApp.dlgConfirmation.btnNo"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="datetime" type="D" value="45866.4220263889"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="55"/>
+					<Prp name="object top" type="I" value="114"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="188"/>
+					<Prp name="click point x" type="I" value="150"/>
+					<Prp name="click point y" type="I" value="125"/>
+					<Prp name="image file name" type="S" value="visImage19.png"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="23"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="date" type="D" value="45866.7136936806"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="55"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.WPF_OpenApp.dlgConfirmation.btnNo&#xA;(Sys.Process(&quot;WPF_OpenApp&quot;).Window(&quot;#32770&quot;, &quot;Confirmation&quot;, 1).Window(&quot;Button&quot;, &quot;&amp;No&quot;, 2))"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 21">
+			<Prp name="message" type="S" value="The property checkpoint passed: WPFControlText equals (case-sensitive) &quot;Tin Nguyen&quot;."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="21"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value="Picture1.png"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="date" type="D" value="45866.7136564699"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="line no" type="I" value="51"/>
+			<Prp name="remarks" type="S" value="&lt;h3&gt;Result&lt;/h3&gt;&lt;span&gt;The property checkpoint &lt;img style = &quot;width: 14px; height: 14px; vertical-align: text-bottom; margin: 2px;&quot; src=&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAB3RJTUUH4wIUBiMun01WOAAAAlZJREFUWMPdly1s20AUx/+ODCptij0FGERrKhsEbF2mTQqoWsk8JIXugAOTkRiabTAwJWvZErAGriTcUqKCkq1KBwJcpZ0KDKr5Kk0qsOShWf64+CNzFWnH7Du/3//ee773jnFdF+scBax5sGkXEscWT6yBObENTImBe4cE5ossh11Oxh4v40BoSRzLX6WxyySFgDi2qJuaObKGmXamCCp6Uj9RSKyA8d2p25m3IrtNO4osh6PqAI1Sk8ksQDc19/j2MJc4t8td9KQ+kzoJ84QDwPHtIXRTc1N5YHx36r77sf8oGf/lxddIOAICiGOL2+db5qoxT5MTs/oikJiFkOsfDQ4A9w6BbmomNQeIY4tZf7W4neqVD3j5pBaZG1lDEMcWIwJOrIGZF3z8yoBe+YhxzaCK8LM8ARPbyA2+/fQ1AIBjeYxrBoosF1jnZ3kCpmS5ANoukuBxw88q+BOEZnTy5humb7/jU/VzZjhxbDQu5Iht/3NsNfQbPRBaVBFJ8MvfF1TbNw8LN1bA841KxGhYxKpwANjc2GJiBfx8uEZn3oq8/yviX+DUk3DzjHdpeaAIKo6qg7Q9Qyp4keVws2MHPbDLydTFI2tI9cSq8DDLE7DHy0s/SBKR1e1+lhcC4thi5eyZmdTlhMORFQ4A1zu/vILkeYBj+StFUGM/DHtiFbgiqPBXw5XKsSKoeF/W0Jm3MsFp5XjtDUnkHGiUmky73M0d3i53qc0p9SDqSf1cRcQ1pWtvy2OLUaPUZGb1hZT0dyxL1Fl9IcXBU92M1n41++9vx38AoNJrUz8FYVwAAAAASUVORK5CYII=&quot;&gt;&lt;b&gt;passed&lt;/b&gt;: Aliases.WPF_OpenApp.Hwnd...View.TextblockTinNguyen.WPFControlText&lt;b&gt; equals (case-sensitive) &lt;/b&gt;&quot;Tin Nguyen&quot;.&lt;/span&gt;&lt;h3&gt;Details&lt;/h3&gt;&lt;div class=&quot;table-border full-width&quot;&gt;&lt;table class=&quot;table-borderless table-vertical&quot;&gt;&lt;tr&gt;&lt;th style=&quot;width: 16em;&quot;&gt;Object&lt;/th&gt;&lt;td&gt;&lt;a href='lnamemapping://{954052EC-7D35-438A-BE01-A2D37891BCF1}.{A84B54F0-E212-4ECA-AF39-035E1659D395}'&gt;Aliases.WPF_OpenApp.HwndSource_MainForm.MainForm.OrdersView.TextblockTinNguyen&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Property&lt;/th&gt;&lt;td&gt;WPFControlText&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Condition&lt;/th&gt;&lt;td&gt;equals (case-sensitive)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Actual value&lt;/th&gt;&lt;td&gt;&lt;span style=&quot;white-space: pre-wrap; &quot;&gt;&quot;Tin Nguyen&quot;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Expected value&lt;/th&gt;&lt;td&gt;&lt;span style=&quot;white-space: pre-wrap; &quot;&gt;&quot;Tin Nguyen&quot;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;"/>
+			<Prp name="as html" type="B" value="-1"/>
+		</Node>
+		<Node name="message 12">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="33"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage9_Dif.png"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+				<Node name="original">
+					<Prp name="object bottom" type="I" value="282"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="108"/>
+					<Prp name="object name" type="S" value="Aliases.WPF_OpenApp.HwndSource_OrderForm.OrderForm.State"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="datetime" type="D" value="45866.3695486111"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="33"/>
+					<Prp name="object top" type="I" value="261"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="239"/>
+					<Prp name="click point x" type="I" value="168"/>
+					<Prp name="click point y" type="I" value="277"/>
+					<Prp name="image file name" type="S" value="tcvi2482538592190015.png"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="282"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="108"/>
+					<Prp name="object name" type="S" value="Aliases.WPF_OpenApp.HwndSource_OrderForm.OrderForm.State"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="datetime" type="D" value="45866.4219757755"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="33"/>
+					<Prp name="object top" type="I" value="261"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="239"/>
+					<Prp name="click point x" type="I" value="168"/>
+					<Prp name="click point y" type="I" value="277"/>
+					<Prp name="image file name" type="S" value="visImage9.png"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="12"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="date" type="D" value="45866.7136427315"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="33"/>
+			<Prp name="remarks" type="S" value="A click at point (60, 16) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.WPF_OpenApp.HwndSource_OrderForm.OrderForm.State&#xA;(Sys.Process(&quot;WPF_OpenApp&quot;).WPFObject(&quot;HwndSource: OrderForm&quot;).WPFObject(&quot;OrderForm&quot;).WPFObject(&quot;gridMain&quot;).WPFObject(&quot;State&quot;))"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 11">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="31"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage8_Dif.png"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+				<Node name="original">
+					<Prp name="object bottom" type="I" value="252"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="108"/>
+					<Prp name="object name" type="S" value="Aliases.WPF_OpenApp.HwndSource_OrderForm.OrderForm.Street"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="datetime" type="D" value="45866.3694791667"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="31"/>
+					<Prp name="object top" type="I" value="231"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="239"/>
+					<Prp name="click point x" type="I" value="-717"/>
+					<Prp name="click point y" type="I" value="-284"/>
+					<Prp name="image file name" type="S" value="tcvi2482482182190013.png"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="252"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="108"/>
+					<Prp name="object name" type="S" value="Aliases.WPF_OpenApp.HwndSource_OrderForm.OrderForm.Street"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="datetime" type="D" value="45866.4219747106"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="31"/>
+					<Prp name="object top" type="I" value="231"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="239"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage8.png"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="The text 'Tu Cuong' was entered in the text editor."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="11"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="date" type="D" value="45866.7136415972"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="31"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.WPF_OpenApp.HwndSource_OrderForm.OrderForm.Street&#xA;(Sys.Process(&quot;WPF_OpenApp&quot;).WPFObject(&quot;HwndSource: OrderForm&quot;).WPFObject(&quot;OrderForm&quot;).WPFObject(&quot;gridMain&quot;).WPFObject(&quot;Street&quot;))"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 0">
+			<Prp name="message" type="S" value="Time BEFORE checking opening app: 1753697256019 ms"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="date" type="D" value="45866.7136114005"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="line no" type="I" value="3"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 17">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="43"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage14_Dif.png"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+				<Node name="original">
+					<Prp name="object bottom" type="I" value="362"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="108"/>
+					<Prp name="object name" type="S" value="Aliases.WPF_OpenApp.HwndSource_OrderForm.OrderForm.AE"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="datetime" type="D" value="45866.3697106481"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="43"/>
+					<Prp name="object top" type="I" value="346"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="221"/>
+					<Prp name="click point x" type="I" value="132"/>
+					<Prp name="click point y" type="I" value="353"/>
+					<Prp name="image file name" type="S" value="tcvi2482681562190020.png"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="362"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="108"/>
+					<Prp name="object name" type="S" value="Aliases.WPF_OpenApp.HwndSource_OrderForm.OrderForm.AE"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="datetime" type="D" value="45866.4219815509"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="43"/>
+					<Prp name="object top" type="I" value="346"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="221"/>
+					<Prp name="click point x" type="I" value="164"/>
+					<Prp name="click point y" type="I" value="354"/>
+					<Prp name="image file name" type="S" value="visImage14.png"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="The radio button was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="17"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="date" type="D" value="45866.7136491898"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="43"/>
+			<Prp name="remarks" type="S" value="The control state has been changed to 'checked'.&#xA;&#xA;Tested object:&#xA;Aliases.WPF_OpenApp.HwndSource_OrderForm.OrderForm.AE&#xA;(Sys.Process(&quot;WPF_OpenApp&quot;).WPFObject(&quot;HwndSource: OrderForm&quot;).WPFObject(&quot;OrderForm&quot;).WPFObject(&quot;gridMain&quot;).WPFObject(&quot;AE&quot;))"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 16">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="41"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage13_Dif.png"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+				<Node name="original">
+					<Prp name="object bottom" type="I" value="282"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="308"/>
+					<Prp name="object name" type="S" value="Aliases.WPF_OpenApp.HwndSource_OrderForm.OrderForm.Zip"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="datetime" type="D" value="45866.3696527778"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="41"/>
+					<Prp name="object top" type="I" value="261"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="459"/>
+					<Prp name="click point x" type="I" value="-717"/>
+					<Prp name="click point y" type="I" value="-284"/>
+					<Prp name="image file name" type="S" value="tcvi2482633902190019.png"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="282"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="308"/>
+					<Prp name="object name" type="S" value="Aliases.WPF_OpenApp.HwndSource_OrderForm.OrderForm.Zip"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="datetime" type="D" value="45866.4219803356"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="41"/>
+					<Prp name="object top" type="I" value="261"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="459"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage13.png"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="The text '700000' was entered in the text editor."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="16"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="date" type="D" value="45866.7136472222"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="41"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.WPF_OpenApp.HwndSource_OrderForm.OrderForm.Zip&#xA;(Sys.Process(&quot;WPF_OpenApp&quot;).WPFObject(&quot;HwndSource: OrderForm&quot;).WPFObject(&quot;OrderForm&quot;).WPFObject(&quot;gridMain&quot;).WPFObject(&quot;Zip&quot;))"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="stack"/>
+		<Node name="message 1">
+			<Prp name="message" type="S" value="The application &quot;D:\Projects\Smartbear\01.TestComplete\Resource\DesktopApps\WPF\WPF_OpenApp.exe&quot; started."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="date" type="D" value="45866.713611794"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="line no" type="I" value="6"/>
+			<Prp name="remarks" type="S" value="The process ID is 4604."/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 18">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="45"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage15_Dif.png"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+				<Node name="original">
+					<Prp name="object bottom" type="I" value="398"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="108"/>
+					<Prp name="object name" type="S" value="Aliases.WPF_OpenApp.HwndSource_OrderForm.OrderForm.CardNo"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="datetime" type="D" value="45866.3697222222"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="45"/>
+					<Prp name="object top" type="I" value="376"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="459"/>
+					<Prp name="click point x" type="I" value="172"/>
+					<Prp name="click point y" type="I" value="388"/>
+					<Prp name="image file name" type="S" value="tcvi2482692342190021.png"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="398"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="108"/>
+					<Prp name="object name" type="S" value="Aliases.WPF_OpenApp.HwndSource_OrderForm.OrderForm.CardNo"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="datetime" type="D" value="45866.4219833218"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="45"/>
+					<Prp name="object top" type="I" value="376"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="459"/>
+					<Prp name="click point x" type="I" value="172"/>
+					<Prp name="click point y" type="I" value="388"/>
+					<Prp name="image file name" type="S" value="visImage15.png"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="18"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="date" type="D" value="45866.7136506134"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="45"/>
+			<Prp name="remarks" type="S" value="A click at point (64, 12) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.WPF_OpenApp.HwndSource_OrderForm.OrderForm.CardNo&#xA;(Sys.Process(&quot;WPF_OpenApp&quot;).WPFObject(&quot;HwndSource: OrderForm&quot;).WPFObject(&quot;OrderForm&quot;).WPFObject(&quot;gridMain&quot;).WPFObject(&quot;CardNo&quot;))"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="message 10">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="29"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage7_Dif.png"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+				<Node name="original">
+					<Prp name="object bottom" type="I" value="252"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="108"/>
+					<Prp name="object name" type="S" value="Aliases.WPF_OpenApp.HwndSource_OrderForm.OrderForm.Street"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="datetime" type="D" value="45866.3694675926"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="29"/>
+					<Prp name="object top" type="I" value="231"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="239"/>
+					<Prp name="click point x" type="I" value="148"/>
+					<Prp name="click point y" type="I" value="234"/>
+					<Prp name="image file name" type="S" value="tcvi2482473432190012.png"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="252"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="108"/>
+					<Prp name="object name" type="S" value="Aliases.WPF_OpenApp.HwndSource_OrderForm.OrderForm.Street"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="datetime" type="D" value="45866.4219735301"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="29"/>
+					<Prp name="object top" type="I" value="231"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="239"/>
+					<Prp name="click point x" type="I" value="148"/>
+					<Prp name="click point y" type="I" value="234"/>
+					<Prp name="image file name" type="S" value="visImage7.png"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="10"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="date" type="D" value="45866.713640625"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="29"/>
+			<Prp name="remarks" type="S" value="A click at point (40, 3) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.WPF_OpenApp.HwndSource_OrderForm.OrderForm.Street&#xA;(Sys.Process(&quot;WPF_OpenApp&quot;).WPFObject(&quot;HwndSource: OrderForm&quot;).WPFObject(&quot;OrderForm&quot;).WPFObject(&quot;gridMain&quot;).WPFObject(&quot;Street&quot;))"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 3">
+			<Prp name="message" type="S" value="Time Taken to launch the app is: 672 milliseconds"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="3"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="date" type="D" value="45866.7136191319"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="line no" type="I" value="12"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 13">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="35"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage10_Dif.png"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+				<Node name="original">
+					<Prp name="object bottom" type="I" value="252"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="308"/>
+					<Prp name="object name" type="S" value="Aliases.WPF_OpenApp.HwndSource_OrderForm.OrderForm.City"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="datetime" type="D" value="45866.3695833333"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="35"/>
+					<Prp name="object top" type="I" value="231"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="459"/>
+					<Prp name="click point x" type="I" value="415"/>
+					<Prp name="click point y" type="I" value="239"/>
+					<Prp name="image file name" type="S" value="tcvi2482570782190016.png"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="252"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="308"/>
+					<Prp name="object name" type="S" value="Aliases.WPF_OpenApp.HwndSource_OrderForm.OrderForm.City"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="datetime" type="D" value="45866.4219768287"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="35"/>
+					<Prp name="object top" type="I" value="231"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="459"/>
+					<Prp name="click point x" type="I" value="415"/>
+					<Prp name="click point y" type="I" value="239"/>
+					<Prp name="image file name" type="S" value="visImage10.png"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="13"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="date" type="D" value="45866.713643912"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="35"/>
+			<Prp name="remarks" type="S" value="A click at point (107, 8) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.WPF_OpenApp.HwndSource_OrderForm.OrderForm.City&#xA;(Sys.Process(&quot;WPF_OpenApp&quot;).WPFObject(&quot;HwndSource: OrderForm&quot;).WPFObject(&quot;OrderForm&quot;).WPFObject(&quot;gridMain&quot;).WPFObject(&quot;City&quot;))"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 4">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="17"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage0_Dif.png"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+				<Node name="original">
+					<Prp name="object bottom" type="I" value="79"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="8"/>
+					<Prp name="object name" type="S" value="Aliases.WPF_OpenApp.HwndSource_MainForm.MainForm.ToolBar"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="datetime" type="D" value="45866.3693287037"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="17"/>
+					<Prp name="object top" type="I" value="51"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="601"/>
+					<Prp name="click point x" type="I" value="-657"/>
+					<Prp name="click point y" type="I" value="-318"/>
+					<Prp name="image file name" type="S" value="tcvi248235062219001.png"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="76"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="92"/>
+					<Prp name="object name" type="S" value="Aliases.WPF_OpenApp.HwndSource_MainForm.MainForm.ToolBar.WPFObject(&quot;ToolOrderNew&quot;)"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="datetime" type="D" value="45866.4219557176"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="17"/>
+					<Prp name="object top" type="I" value="53"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="116"/>
+					<Prp name="click point x" type="I" value="104"/>
+					<Prp name="click point y" type="I" value="64"/>
+					<Prp name="image file name" type="S" value="visImage0.png"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="The toolbar item 4 was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="4"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="date" type="D" value="45866.7136236921"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="17"/>
+			<Prp name="remarks" type="S" value="A click with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.WPF_OpenApp.HwndSource_MainForm.MainForm.ToolBar&#xA;(Sys.Process(&quot;WPF_OpenApp&quot;).WPFObject(&quot;HwndSource: MainForm&quot;).WPFObject(&quot;MainForm&quot;).WPFObject(&quot;gridMain&quot;).WPFObject(&quot;ToolBar&quot;))"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 5">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="19"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage2_Dif.png"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+				<Node name="original">
+					<Prp name="object bottom" type="I" value="64"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="68"/>
+					<Prp name="object name" type="S" value="Aliases.WPF_OpenApp.HwndSource_OrderForm.OrderForm.ProductNames"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="datetime" type="D" value="45866.3693518518"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="19"/>
+					<Prp name="object top" type="I" value="42"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="459"/>
+					<Prp name="click point x" type="I" value="-717"/>
+					<Prp name="click point y" type="I" value="-284"/>
+					<Prp name="image file name" type="S" value="tcvi248237562219005.png"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="64"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="68"/>
+					<Prp name="object name" type="S" value="Aliases.WPF_OpenApp.HwndSource_OrderForm.OrderForm.ProductNames"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="datetime" type="D" value="45866.4219658102"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="19"/>
+					<Prp name="object top" type="I" value="42"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="459"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage2.png"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="The combo box item 'FamilyAlbum' was selected."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="5"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="date" type="D" value="45866.7136339931"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="19"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.WPF_OpenApp.HwndSource_OrderForm.OrderForm.ProductNames&#xA;(Sys.Process(&quot;WPF_OpenApp&quot;).WPFObject(&quot;HwndSource: OrderForm&quot;).WPFObject(&quot;OrderForm&quot;).WPFObject(&quot;gridMain&quot;).WPFObject(&quot;ProductNames&quot;))"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 19">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="47"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage16_Dif.png"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+				<Node name="original">
+					<Prp name="object bottom" type="I" value="398"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="108"/>
+					<Prp name="object name" type="S" value="Aliases.WPF_OpenApp.HwndSource_OrderForm.OrderForm.CardNo"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="datetime" type="D" value="45866.3697337963"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="47"/>
+					<Prp name="object top" type="I" value="376"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="459"/>
+					<Prp name="click point x" type="I" value="-717"/>
+					<Prp name="click point y" type="I" value="-284"/>
+					<Prp name="image file name" type="S" value="tcvi2482701872190022.png"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="398"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="108"/>
+					<Prp name="object name" type="S" value="Aliases.WPF_OpenApp.HwndSource_OrderForm.OrderForm.CardNo"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="datetime" type="D" value="45866.4219847106"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="47"/>
+					<Prp name="object top" type="I" value="376"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="459"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage16.png"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="The text '1234567890' was entered in the text editor."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="19"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="date" type="D" value="45866.7136516551"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="47"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.WPF_OpenApp.HwndSource_OrderForm.OrderForm.CardNo&#xA;(Sys.Process(&quot;WPF_OpenApp&quot;).WPFObject(&quot;HwndSource: OrderForm&quot;).WPFObject(&quot;OrderForm&quot;).WPFObject(&quot;gridMain&quot;).WPFObject(&quot;CardNo&quot;))"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Prp name="status" type="I" value="0"/>
+	</Node>
+</Nodes>

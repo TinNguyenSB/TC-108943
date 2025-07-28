@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{90D101C8-80C7-48D4-9055-2E451B9BCD75}" version="1400" key="{54849245-7A13-4C84-A873-7C172F8A92C3}" typeId="{90D101C8-80C7-48D4-9055-2E451B9BCD75}">
+	<config nodeName="TestedApps" />
+	<testData />
+	<data />
+	<children>
+		<child key="{0AB66212-D943-4E38-8761-C8322B36DD93}">
+			<config nodeName="WPF_OpenApp" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
+				<runModeParams activeRunMode="Simple">
+					<param name="RunAs" parameters="" workFolder="D:\Projects\Smartbear\01.TestComplete\Resource\DesktopApps\WPF" userName="" password="" domain="" />
+					<param name="Profile" parameters="" workFolder="D:\Projects\Smartbear\01.TestComplete\Resource\DesktopApps\WPF" useProject="False" projectFileName="" overrideProfiler="False" profilerName="" profileRunMode="Silent" AQtimeVersion="0" forceRunMode="False" />
+					<param name="Debug" parameters="" workFolder="D:\Projects\Smartbear\01.TestComplete\Resource\DesktopApps\WPF" />
+					<param name="Simple" fileName="WPF_OpenApp.exe" filePath="" parameters="" workFolder="D:\Projects\Smartbear\01.TestComplete\Resource\DesktopApps\WPF" />
+				</runModeParams>
+			</config>
+			<testData />
+			<data />
+		</child>
+	</children>
+</Root>
