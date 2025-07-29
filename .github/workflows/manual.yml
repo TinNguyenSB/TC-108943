@@ -27,5 +27,8 @@ jobs:
           
       - name: Run TestExecute tests
         run: |
-          # Command to run TestExecute with your test project
+          echo "Starting TestExecute test..."
           & "C:\Program Files (x86)\SmartBear\TestExecute 15\x64\Bin\TestExecute.exe" "C:\actions-runner\_work\TC-108943\TC-108943\ProjectSuite\ProjectSuite.pjs" /r /p:TestProject1
+          echo "TestExecute test completed."
+        timeout-minutes: 3  # Timeout after 3 minutes (adjust as needed)
+
