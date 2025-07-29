@@ -24,7 +24,7 @@ jobs:
       - name: Run TestExecute tests
         run: |
           # Command to run TestExecute with your test project
-          "C:\Program Files (x86)\SmartBear\TestExecute 15\x64\Bin\TestExecute.exe" "C:\actions-runner\_work\TC-108943\TC-108943\ProjectSuite\ProjectSuite.pjs" /r /p:TestProject /el:"C:\Reports\Run1"
+          "C:\Program Files (x86)\SmartBear\TestExecute 15\x64\Bin\TestExecute.exe" "C:\actions-runner\_work\TC-108943\TC-108943\ProjectSuite\ProjectSuite.pjs" /r /p:TestProject1 /el:"C:\Reports\Run1"
           
       - name: Collect and upload test results
         run: |
