@@ -1,9 +1,9 @@
 name: Run Desktop UI Tests with TestExecute
 
 on:
-  push:
-    branches:
-      - main
+  # push:
+  #   branches:
+  #     - main
   pull_request:
     branches:
       - main
