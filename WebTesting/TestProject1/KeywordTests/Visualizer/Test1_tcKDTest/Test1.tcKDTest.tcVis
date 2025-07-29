@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
-	<data key="{F75EFB0A-9BEE-406D-B521-8F3B009E7DE0}" />
+	<data key="{F75EFB0A-9BEE-406D-B521-8F3B009E7DE0}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="3" kind="0" dateTime="45867.3999537037" objectName="Aliases.browser.pageShop.header.navUsd.linkLogIn.textnodeLogIn" objectLeft="1449" objectTop="91" objectRight="1497" objectBottom="108" clickPointX="1451" clickPointY="98" imageFileName="tcvi33728120351442.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="6" kind="0" dateTime="45867.4000462963" objectName="Aliases.browser.pageShop2.sectionContent.buttonLogIn" objectLeft="1093" objectTop="632" objectRight="1476" objectBottom="683" clickPointX="1265" clickPointY="666" imageFileName="tcvi33728931251444.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="8" kind="0" dateTime="45867.4001157407" objectName="Aliases.browser.pageShop2.sectionContent.linkRegister" objectLeft="398" objectTop="539" objectRight="507" objectBottom="590" clickPointX="419" clickPointY="571" imageFileName="tcvi33729515651446.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="10" kind="0" dateTime="45867.4001967593" objectName="Aliases.browser.BrowserWindow" objectLeft="-8" objectTop="-8" objectRight="1928" objectBottom="1048" clickPointX="-1" clickPointY="-1" imageFileName="tcvi33730217151448.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
 </Root>
