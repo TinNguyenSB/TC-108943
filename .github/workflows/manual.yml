@@ -24,7 +24,13 @@ jobs:
         run: |
           echo "Setting up environment variables"
           # Set any necessary environment variables here (if needed)
-          
+      - name: Set TestExecute permissions
+        run: |
+          $path = "C:\Program Files (x86)\SmartBear\TestExecute 15\Bin"
+          icacls $path /grant "Everyone:(OI)(CI)F" /T
+          icacls "$path\TCHookX86.exe" /grant "Everyone:F"
+        shell: powershell
+  
       - name: Run TestExecute tests
         run: |
           echo "Starting TestExecute test..."
