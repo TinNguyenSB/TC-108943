@@ -12,7 +12,9 @@ jobs:
     runs-on: [self-hosted, Windows, x64]  # Labels of your Windows runner
 
     env:
-      PROJECT_PATH: "C:\\actions-runner\\_work\\TC-108943\\TC-108943\\WebTesting\\WebTesting.pjs"
+      # PROJECT_PATH: "C:\\actions-runner\\_work\\TC-108943\\TC-108943\\WebTesting\\WebTesting.pjs"
+      PROJECT_PATH: "C:\\actions-runner\\_work\\TC-108943\\TC-108943\\ProjectSuite\\ProjectSuite.pjs"
+      
       ACCESS_KEY: ${{ secrets.SMARTBEAR_ACCESS_KEY }}
       LOG_DIR: "${{ github.workspace }}\\logs"
 
