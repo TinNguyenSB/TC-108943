@@ -20,21 +20,52 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
-
-      - name: Set PowerShell Execution Policy (if using PowerShell)
+      - name: Job Startup
         run: |
-          Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
-
-      - name: Run TestExecute tests
+          echo "Starting job [Event=${{ github.event_name }}]"
+          echo "This job is now running on a ${{ runner.os }} server hosted by GitHub!"
+      - name: Download TestExecute
         run: |
-          echo "Starting TestExecute for project %ProjectPath%"
-          cmd.exe /c ""C:\Program Files (x86)\SmartBear\TestExecute 15\x64\Bin\TestExecute.exe" %ProjectPath% /r /e /AccessKey:%AccessKey% /SilentMode /Timeout:1200 /ns /ErrorLog:%cd%\logs\error.log /ExportLog:%cd%\logs\runlog.html /ExportSummary:%cd%\logs\runlog.xml /shr:%cd%\logs\shared-repo-link.txt /shrn:LogFromGitHubAction /shrei:7"
+          Invoke-WebRequest -Uri "${{ vars.TEST_EXECUTE_DOWNLOAD_URL }}" -OutFile ".\TE.exe"
+          echo "TestExecute downloaded - ${{ vars.TEST_EXECUTE_DOWNLOAD_URL }}"
+      - name: Show working folder content
+        run: dir
+        shell: cmd
+      - name: Install TestExecute
+        run: .\TE.exe -SilentInstall
+        shell: cmd
+      - name: Env Variable for TestExecute bin folder
+        run: set PATH_TE="${{ vars.TEST_EXECUTE_BIN }}"
+        shell: cmd
+      - name: Launch TestExecute
+        run: .\test-runner.bat ${{ secrets.TEST_EXECUTE_ACCESS_KEY }} ${{ inputs.project || 'Web' }}
+        shell: cmd
+      - name: Prepare Logs Folder
+        run: |
+          if not exist "%LOG_DIR%" mkdir "%LOG_DIR%"
+        shell: cmd
 
       - name: Run TestExecute
         run: |
-          echo "Starting TestExecute for project $env:ProjectPath"
-          & "C:\Program Files (x86)\SmartBear\TestExecute 15\x64\Bin\TestExecute.exe" $env:ProjectPath /r /e /AccessKey:$env:AccessKey /SilentMode /Timeout:1200 /ns /ErrorLog:$pwd\logs\error.log /ExportLog:$pwd\logs\runlog.html /ExportSummary:$pwd\logs\runlog.xml /shr:$pwd\logs\shared-repo-link.txt /shrn:LogFromGitHubAction /shrei:7
-        shell: pwsh
+          echo Starting TestExecute...
+          "C:\Program Files (x86)\SmartBear\TestExecute 15\x64\Bin\TestExecute.exe" ^
+            "%PROJECT_PATH%" /r /e ^
+            /AccessKey:%ACCESS_KEY% ^
+            /SilentMode /Timeout:1200 ^
+            /ns ^
+            /ErrorLog:"%LOG_DIR%\error.log" ^
+            /ExportLog:"%LOG_DIR%\runlog.html" ^
+            /ExportSummary:"%LOG_DIR%\runlog.xml" ^
+            /shr:"%LOG_DIR%\shared-repo-link.txt" ^
+            /shrn:LogFromGitHubAction ^
+            /shrei:7
+        shell: cmd
+      
+      - name: Upload Test Logs
+        uses: actions/upload-artifact@v4
+        with:
+          name: testexecute-logs
+          path: logs
           
       - name: Collect and upload test results
         run: |
