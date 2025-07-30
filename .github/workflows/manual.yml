@@ -1,40 +1,48 @@
-name: Run Desktop UI Tests with TestExecute
+name: Run TestExecute Tests
 
 on:
-  # push:
-  #   branches:
-  #     - main
-  pull_request:
+  workflow_dispatch:
+  push:
     branches:
       - main
 
 jobs:
-  test:
-    runs-on: [self-hosted, windows]
-    
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
-     
-      - name: Set PowerShell Execution Policy
-        run: |
-          Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
-          
-      - name: Set up environment
-        run: |
-          echo "Setting up environment variables"
-          # Set any necessary environment variables here (if needed)
-      - name: Set TestExecute permissions
-        run: |
-          $path = "C:\Program Files (x86)\SmartBear\TestExecute 15\Bin"
-          icacls $path /grant "Everyone:(OI)(CI)F" /T
-          icacls "$path\TCHookX86.exe" /grant "Everyone:F"
-        shell: powershell
-  
-      - name: Run TestExecute tests
-        run: |
-          echo "Starting TestExecute test..."
-          & "C:\Program Files (x86)\SmartBear\TestExecute 15\x64\Bin\TestExecute.exe" "C:\actions-runner\_work\TC-108943\TC-108943\ProjectSuite\ProjectSuite.pjs" /r /p:TestProject1
-          echo "TestExecute test completed."
-        timeout-minutes: 3  # Timeout after 3 minutes (adjust as needed)
+  run-tests:
+    name: Execute SmartBear TestExecute
+    runs-on: [self-hosted, Windows, x64]  # Labels of your Windows runner
 
+    env:
+      PROJECT_PATH: "C:\\actions-runner\\_work\\MyProject\\MyProject\\WebTesting\\WebTesting.pjs"
+      ACCESS_KEY: ${{ secrets.SMARTBEAR_ACCESS_KEY }}
+      LOG_DIR: "${{ github.workspace }}\\logs"
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Prepare Logs Folder
+        run: |
+          if not exist "%LOG_DIR%" mkdir "%LOG_DIR%"
+        shell: cmd
+
+      - name: Run TestExecute
+        run: |
+          echo Starting TestExecute...
+          "C:\Program Files (x86)\SmartBear\TestExecute 15\x64\Bin\TestExecute.exe" ^
+            "%PROJECT_PATH%" /r /e ^
+            /AccessKey:%ACCESS_KEY% ^
+            /SilentMode /Timeout:1200 ^
+            /ns ^
+            /ErrorLog:"%LOG_DIR%\error.log" ^
+            /ExportLog:"%LOG_DIR%\runlog.html" ^
+            /ExportSummary:"%LOG_DIR%\runlog.xml" ^
+            /shr:"%LOG_DIR%\shared-repo-link.txt" ^
+            /shrn:LogFromGitHubAction ^
+            /shrei:7
+        shell: cmd
+
+      - name: Upload Test Logs
+        uses: actions/upload-artifact@v4
+        with:
+          name: testexecute-logs
+          path: logs
