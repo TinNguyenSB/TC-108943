@@ -15,7 +15,7 @@ jobs:
 
     env:
       ProjectPath: 'C:\actions-runner\_work\TC-108943\TC-108943\WebTesting\WebTesting.pjs'  # Define the project path
-      AccessKey: ${{ secrets.TEST_EXECUTE_ACCESS_KEY }}  # Assuming you store the Access Key in GitHub Secrets
+      AccessKey_TC: ${{ secrets.TEST_EXECUTE_ACCESS_KEY }}  # Assuming you store the Access Key in GitHub Secrets
 
     steps:
       - name: Checkout repository
@@ -50,7 +50,7 @@ jobs:
           echo Starting TestExecute...
           "C:\Program Files (x86)\SmartBear\TestExecute 15\x64\Bin\TestExecute.exe" ^
             "%PROJECT_PATH%" /r /e ^
-            /AccessKey:%ACCESS_KEY% ^
+            /AccessKey:%AccessKey_TC% ^
             /SilentMode /Timeout:1200 ^
             /ns ^
             /ErrorLog:"%LOG_DIR%\error.log" ^
