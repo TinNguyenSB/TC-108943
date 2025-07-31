@@ -9,7 +9,7 @@ on:
 jobs:
   run-tests:
     name: Execute SmartBear TestExecute
-    runs-on: [self-hosted, Windows, x64]  # Labels of your Windows runner
+    runs-on: [self-hosted, Windows, X64, tc-001]  # Labels of your Windows runner
 
     env:
       # PROJECT_PATH: "C:\\actions-runner\\_work\\TC-108943\\TC-108943\\WebTesting\\WebTesting.pjs"
