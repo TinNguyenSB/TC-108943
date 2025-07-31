@@ -11,7 +11,7 @@ on:
 
 jobs:
   test:
-    runs-on: [self-hosted, windows]  # Runs on your self-hosted Windows runner
+    runs-on: [self-hosted, windows, tc-001]  # Runs on your self-hosted Windows runner
 
     env:
       ProjectPath: 'C:\actions-runner\_work\TC-108943\TC-108943\WebTesting\WebTesting.pjs'  # Define the project path
