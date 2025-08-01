@@ -38,7 +38,7 @@ jobs:
             echo "TestExecute installer already exists, skipping download."
           ) else (
             echo "TestExecute installer not found, proceeding with download."
-            Invoke-WebRequest -Uri "${{ vars.TEST_EXECUTE_DOWNLOAD_URL }}" -OutFile ".\TE.exe"
+            powershell -Command "Invoke-WebRequest -Uri '${{ vars.TEST_EXECUTE_DOWNLOAD_URL }}' -OutFile '.\TE.exe'"
           )
         shell: cmd
 
