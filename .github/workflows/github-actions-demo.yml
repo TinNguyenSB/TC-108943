@@ -43,12 +43,12 @@ jobs:
         run: |
           if not exist "%LOG_DIR%" mkdir "%LOG_DIR%"
         shell: cmd
-
+        
       - name: Run TestExecute
         run: |
           echo Starting TestExecute...
           "C:\Program Files (x86)\SmartBear\TestExecute 15\x64\Bin\TestExecute.exe" ^
-            "%PROJECT_PATH%" /r /e ^
+            "%ProjectPath%" /r /e ^
             /AccessKey:%AccessKey_TC% ^
             /SilentMode /Timeout:1200 ^
             /ns ^
@@ -59,7 +59,6 @@ jobs:
             /shrn:LogFromGitHubAction ^
             /shrei:7
         shell: cmd
-      
       - name: Upload Test Logs
         uses: actions/upload-artifact@v4
         with:
