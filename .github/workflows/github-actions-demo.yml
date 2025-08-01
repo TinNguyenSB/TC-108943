@@ -16,7 +16,7 @@ jobs:
     env:
       ProjectPath: '${{ github.workspace }}\WebTesting\WebTesting.pjs'  # Define the project path
       AccessKey_TC: ${{ secrets.TEST_EXECUTE_ACCESS_KEY }}  # Assuming you store the Access Key in GitHub Secrets
-      InstallerPath: '.\TE.exe'
+      InstallerPath: '${{ github.workspace }}\TE.exe'
       LOG_DIR: 'C:\actions-runner\logs'
 
     steps:
@@ -38,7 +38,7 @@ jobs:
             echo "TestExecute installer already exists, skipping download."
           ) else (
             echo "TestExecute installer not found, proceeding with download."
-            powershell -Command "Invoke-WebRequest -Uri '${{ vars.TEST_EXECUTE_DOWNLOAD_URL }}' -OutFile '.\TE.exe'"
+            powershell -Command "Invoke-WebRequest -Uri '${{ vars.TEST_EXECUTE_DOWNLOAD_URL }}' -OutFile '${{ github.workspace }}\TE.exe'"
           )
         shell: cmd
 
