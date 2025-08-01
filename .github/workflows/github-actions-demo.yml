@@ -53,14 +53,13 @@ jobs:
           echo Starting TestExecute...
           "C:\Program Files (x86)\SmartBear\TestExecute 15\x64\Bin\TestExecute.exe" "${{ env.ProjectPath }}" /r /e /AccessKey:${{ env.AccessKey_TC }} /SilentMode /Timeout:1200 /ns /ErrorLog:"${{ env.LOG_DIR }}\error.log" /ExportLog:"${{ env.LOG_DIR }}\runlog.html" /ExportSummary:"${{ env.LOG_DIR }}\runlog.xml" /shr:"${{ env.LOG_DIR }}\shared-repo-link.txt" /shrn:LogFromGitHubAction /shrei:7
         shell: cmd
-      
       - name: Upload Test Logs
         uses: actions/upload-artifact@v4
         with:
           name: testexecute-logs
-          path: logs
-          
-      - name: Collect and upload test results
+          path: ${{ env.LOG_DIR }}
+      - name: Verify logs
         run: |
-          # Upload the results (optional step)
-          upload-artifact --name test-results --path "%cd%\logs\runlog.html"
+          echo "Current directory: %cd%"
+          dir ${{ env.LOG_DIR }}
+        shell: cmd
