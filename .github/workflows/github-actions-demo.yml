@@ -2,6 +2,9 @@ name: github-actions-demo-TestExecute
 
 on:
   workflow_dispatch:  # Trigger manually from GitHub UI
+  # push:
+  #   branches:
+  #     - main
   pull_request:
     branches:
       - main
@@ -11,48 +14,36 @@ jobs:
     runs-on: [self-hosted, windows, tc-001]  # Runs on your self-hosted Windows runner
 
     env:
-      ProjectPath: 'C:\actions-runner\_work\TC-108943\TC-108943\WebTesting\WebTesting.pjs'
-      AccessKey_TC: ${{ secrets.TEST_EXECUTE_ACCESS_KEY }}
+      ProjectPath: 'C:\actions-runner\_work\TC-108943\TC-108943\WebTesting\WebTesting.pjs'  # Define the project path
+      AccessKey_TC: ${{ secrets.TEST_EXECUTE_ACCESS_KEY }}  # Assuming you store the Access Key in GitHub Secrets
       InstallerPath: 'C:\actions-runner\TestExecute1576SLM.exe'
       LOG_DIR: 'C:\actions-runner\logs'
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
-
       - name: Job Startup
         run: |
           echo "Starting job [Event=${{ github.event_name }}]"
           echo "This job is now running on a ${{ runner.os }} server hosted by GitHub!"
-        shell: cmd
-
-      # Optional download step (if needed)
       # - name: Download TestExecute
       #   run: |
-      #     powershell -Command "Invoke-WebRequest -Uri '${{ vars.TEST_EXECUTE_DOWNLOAD_URL }}' -OutFile 'TE.exe'"
+      #     Invoke-WebRequest -Uri "${{ vars.TEST_EXECUTE_DOWNLOAD_URL }}" -OutFile ".\TE.exe"
       #     echo "TestExecute downloaded - ${{ vars.TEST_EXECUTE_DOWNLOAD_URL }}"
-
       - name: Show working folder content
         run: dir
         shell: cmd
-
       - name: Install TestExecute
-        run: |
-          echo Installing TestExecute...
-          "${{ env.InstallerPath }}" -SilentInstall
+        run: "${{ env.InstallerPath }} -SilentInstall"
         shell: cmd
-
-      - name: Set Env Variable for TestExecute bin folder
-        run: |
-          set PATH_TE=${{ vars.TEST_EXECUTE_BIN }}
-          echo PATH_TE set to %PATH_TE%
+      - name: Env Variable for TestExecute bin folder
+        run: set PATH_TE="${{ vars.TEST_EXECUTE_BIN }}"
         shell: cmd
-
       - name: Prepare Logs Folder
         run: |
           if not exist "%LOG_DIR%" mkdir "%LOG_DIR%"
         shell: cmd
-
+        
       - name: Run TestExecute
         run: |
           echo Starting TestExecute...
@@ -68,9 +59,13 @@ jobs:
             /shrn:LogFromGitHubAction ^
             /shrei:7
         shell: cmd
-
       - name: Upload Test Logs
         uses: actions/upload-artifact@v4
         with:
           name: testexecute-logs
-          path: ${{ env.LOG_DIR }}
+          path: logs
+          
+      - name: Collect and upload test results
+        run: |
+          # Upload the results (optional step)
+          upload-artifact --name test-results --path "%cd%\logs\runlog.html"
