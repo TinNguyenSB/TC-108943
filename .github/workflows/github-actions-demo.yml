@@ -32,10 +32,10 @@ jobs:
       #     echo "TestExecute downloaded - ${{ vars.TEST_EXECUTE_DOWNLOAD_URL }}"
       - name: Show working folder content
         run: dir
-        shell: cmd
-      - name: Install TestExecute
-        run: "${{ env.InstallerPath }} -SilentInstall"
-        shell: cmd
+      #   shell: cmd
+      # - name: Install TestExecute
+      #   run: "${{ env.InstallerPath }} -SilentInstall"
+      #   shell: cmd
       - name: Env Variable for TestExecute bin folder
         run: set PATH_TE="${{ vars.TEST_EXECUTE_BIN }}"
         shell: cmd
