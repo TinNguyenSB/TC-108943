@@ -50,18 +50,10 @@ jobs:
         shell: cmd
       - name: Run TestExecute
         run: |
-          Write-Output "Starting TestExecute..."
-          & "C:\Program Files (x86)\SmartBear\TestExecute 15\x64\Bin\TestExecute.exe" `
-            "${{ env.ProjectPath }}" /r /e `
-            /AccessKey:${{ env.AccessKey_TC }} `
-            /SilentMode /Timeout:1200 /ns `
-            /ErrorLog:"${{ env.LOG_DIR }}\error.log" `
-            /ExportLog:"${{ env.LOG_DIR }}\runlog.html" `
-            /ExportSummary:"${{ env.LOG_DIR }}\runlog.xml" `
-            /shr:"${{ env.LOG_DIR }}\shared-repo-link.txt" `
-            /shrn:LogFromGitHubAction `
-            /shrei:7
-        shell: powershell
+          echo Starting TestExecute...
+          "C:\Program Files (x86)\SmartBear\TestExecute 15\x64\Bin\TestExecute.exe" "${{ env.ProjectPath }}" /r /e /AccessKey:${{ env.AccessKey_TC }} /SilentMode /Timeout:1200 /ns /ErrorLog:"${{ env.LOG_DIR }}\error.log" /ExportLog:"${{ env.LOG_DIR }}\runlog.html" /ExportSummary:"${{ env.LOG_DIR }}\runlog.xml" /shr:"${{ env.LOG_DIR }}\shared-repo-link.txt" /shrn:LogFromGitHubAction /shrei:7
+        shell: cmd
+      
       - name: Upload Test Logs
         uses: actions/upload-artifact@v4
         with:
