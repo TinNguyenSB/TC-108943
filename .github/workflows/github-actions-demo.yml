@@ -17,6 +17,7 @@ jobs:
       ProjectPath: 'C:\actions-runner\_work\TC-108943\TC-108943\WebTesting\WebTesting.pjs'  # Define the project path
       AccessKey_TC: ${{ secrets.TEST_EXECUTE_ACCESS_KEY }}  # Assuming you store the Access Key in GitHub Secrets
       InstallerPath: 'C:\actions-runner\TestExecute1576SLM.exe'
+      LOG_DIR: 'C:\actions-runner\logs'
 
     steps:
       - name: Checkout repository
