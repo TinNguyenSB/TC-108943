@@ -16,6 +16,7 @@ jobs:
     env:
       ProjectPath: 'C:\actions-runner\_work\TC-108943\TC-108943\WebTesting\WebTesting.pjs'  # Define the project path
       AccessKey_TC: ${{ secrets.TEST_EXECUTE_ACCESS_KEY }}  # Assuming you store the Access Key in GitHub Secrets
+      InstallerPath: 'C:\actions-runner\TestExecute1576SLM.exe'
 
     steps:
       - name: Checkout repository
@@ -32,7 +33,7 @@ jobs:
         run: dir
         shell: cmd
       - name: Install TestExecute
-        run: .\TE.exe -SilentInstall
+        run: "${{ env.InstallerPath }} -SilentInstall"
         shell: cmd
       - name: Env Variable for TestExecute bin folder
         run: set PATH_TE="${{ vars.TEST_EXECUTE_BIN }}"
