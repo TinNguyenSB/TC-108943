@@ -63,3 +63,10 @@ jobs:
           echo "Current directory: %cd%"
           dir ${{ env.LOG_DIR }}
         shell: cmd
+      - name: Clean up old logs
+        run: |
+          if exist "${{ env.LOG_DIR }}" (
+            echo Deleting old log files...
+            del /q "${{ env.LOG_DIR }}\*"
+          )
+        shell: cmd 
