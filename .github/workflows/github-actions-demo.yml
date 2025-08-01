@@ -16,7 +16,8 @@ jobs:
     env:
       ProjectPath: '${{ github.workspace }}\WebTesting\WebTesting.pjs' # Define the project path
       AccessKey_TC: ${{ secrets.TEST_EXECUTE_ACCESS_KEY }}  # Assuming you store the Access Key in GitHub Secrets
-      InstallerPath: 'C:\actions-runner\TestExecute1576SLM.exe'
+      # InstallerPath: 'C:\actions-runner\TestExecute1576SLM.exe'
+      InstallerPath: '.\TE.exe'
       LOG_DIR: 'C:\actions-runner\logs'
 
     steps:
@@ -26,16 +27,16 @@ jobs:
         run: |
           echo "Starting job [Event=${{ github.event_name }}]"
           echo "This job is now running on a ${{ runner.os }} server hosted by GitHub!"
-      # - name: Download TestExecute
-      #   run: |
-      #     Invoke-WebRequest -Uri "${{ vars.TEST_EXECUTE_DOWNLOAD_URL }}" -OutFile ".\TE.exe"
-      #     echo "TestExecute downloaded - ${{ vars.TEST_EXECUTE_DOWNLOAD_URL }}"
+      - name: Download TestExecute
+        run: |
+          Invoke-WebRequest -Uri "${{ vars.TEST_EXECUTE_DOWNLOAD_URL }}" -OutFile ".\TE.exe"
+          echo "TestExecute downloaded - ${{ vars.TEST_EXECUTE_DOWNLOAD_URL }}"
       - name: Show working folder content
         run: dir
-      #   shell: cmd
-      # - name: Install TestExecute
-      #   run: "${{ env.InstallerPath }} -SilentInstall"
-      #   shell: cmd
+        shell: cmd
+      - name: Install TestExecute
+        run: "${{ env.InstallerPath }} -SilentInstall"
+        shell: cmd
       - name: Env Variable for TestExecute bin folder
         run: set PATH_TE="${{ vars.TEST_EXECUTE_BIN }}"
         shell: cmd
