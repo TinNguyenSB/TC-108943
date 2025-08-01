@@ -69,8 +69,14 @@ jobs:
 
       - name: Close Microsoft Edge
         run: |
-          echo Closing Microsoft Edge...
-          taskkill /F /IM msedge.exe || echo "Edge was not running"
+          echo Checking if Microsoft Edge is running...
+          tasklist /FI "IMAGENAME eq msedge.exe" 2>NUL | find /I "msedge.exe" >NUL
+          if %ERRORLEVEL%==0 (
+            echo Closing Microsoft Edge...
+            taskkill /F /IM msedge.exe
+          ) else (
+            echo Microsoft Edge is not running, nothing to close.
+          )
         shell: cmd
 
       - name: Clean up old logs
