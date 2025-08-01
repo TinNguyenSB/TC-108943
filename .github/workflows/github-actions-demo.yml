@@ -48,6 +48,18 @@ jobs:
           echo Current directory: %cd%
           dir /s WebTesting.pjs
         shell: cmd
+      - name: Close Microsoft Edge
+        run: |
+          echo Closing Microsoft Edge...
+          taskkill /F /IM msedge.exe || echo "Edge was not running"
+        shell: cmd  
+      - name: Clean up old logs
+        run: |
+          if exist "${{ env.LOG_DIR }}" (
+            echo Deleting old log files...
+            del /q "${{ env.LOG_DIR }}\*"
+          )
+        shell: cmd 
       - name: Run TestExecute
         run: |
           echo Starting TestExecute...
@@ -63,10 +75,3 @@ jobs:
           echo "Current directory: %cd%"
           dir ${{ env.LOG_DIR }}
         shell: cmd
-      - name: Clean up old logs
-        run: |
-          if exist "${{ env.LOG_DIR }}" (
-            echo Deleting old log files...
-            del /q "${{ env.LOG_DIR }}\*"
-          )
-        shell: cmd 
