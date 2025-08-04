@@ -15,7 +15,8 @@ jobs:
     runs-on: [self-hosted, windows, azure-vm001]  # Runs on your self-hosted Windows runner
 
     env:
-      ProjectPath: '${{ github.workspace }}\WebTesting\WebTesting.pjs'  # Define the project path
+      # ProjectPath: '${{ github.workspace }}\WebTesting\WebTesting.pjs'  # Define the project path
+      ProjectPath: '${{ github.workspace }}\ProjectSuite\ProjectSuite.pjs'  # Define the project path
       AccessKey_TC: ${{ secrets.TEST_EXECUTE_ACCESS_KEY }}  # Assuming you store the Access Key in GitHub Secrets
       InstallerPath: '${{ github.workspace }}\TE.exe'
       LOG_DIR: 'C:\actions-runner\logs'
