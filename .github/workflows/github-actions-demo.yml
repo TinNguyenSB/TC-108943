@@ -11,7 +11,8 @@ on:
 
 jobs:
   test:
-    runs-on: [self-hosted, windows, tc-001]  # Runs on your self-hosted Windows runner
+    # runs-on: [self-hosted, windows, tc-001]  # Runs on your self-hosted Windows runner
+    runs-on: [self-hosted, windows, azure-vm001]  # Runs on your self-hosted Windows runner
 
     env:
       ProjectPath: '${{ github.workspace }}\WebTesting\WebTesting.pjs'  # Define the project path
